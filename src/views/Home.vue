@@ -185,19 +185,19 @@
       <div class="text-base px-2">Hot Game</div>
       <div class="flex justify-between m-2">
         <div class="m-1">
-          <img class="w-20 rounded-md" src="/mobile/game1" alt="" />
+          <img class="w-20 rounded-md" src="/mobile/game1.png" alt="" />
         </div>
         <div class="m-1">
-          <img class="w-20 rounded-md" src="/mobile/game2" alt="" />
+          <img class="w-20 rounded-md" src="/mobile/game2.png" alt="" />
         </div>
         <div class="m-1">
-          <img class="w-20 rounded-md" src="/mobile/game3" alt="" />
+          <img class="w-20 rounded-md" src="/mobile/game3.png" alt="" />
         </div>
         <div class="m-1">
-          <img class="w-20 rounded-md" src="/mobile/game4" alt="" />
+          <img class="w-20 rounded-md" src="/mobile/game4.png" alt="" />
         </div>
         <div class="m-1">
-          <img class="w-20 rounded-md" src="/mobile/game5" alt="" />
+          <img class="w-20 rounded-md" src="/mobile/game5.png" alt="" />
         </div>
       </div>
     </div>
@@ -215,7 +215,7 @@
         </div>
       </div>
 
-      <div class="flex relative  h-[400px] scrol">
+      <div class="flex relative h-[400px] scrol">
         <div class="w-20 fixed left-0 p-2">
           <div class="m-1">
             <img src="../assets/icons/live.png" alt="" />
@@ -239,12 +239,27 @@
         <div class="w-20"></div>
         <div class="w-full">
           <div v-for="img in 9" :key="img">
-            <img class="rounded-md my-2" :src="'/mobile/img' + img" alt="" />
+            <img
+              class="rounded-md my-2"
+              :src="'/mobile/img' + img + '.png'"
+              alt=""
+            />
           </div>
         </div>
       </div>
 
-      <div class="fixed bg-[#303032] w-[89%] justify-between flex rounded-full bottom-3 p-4">
+      <div
+        class="
+          fixed
+          bg-[#303032]
+          w-[89%]
+          justify-between
+          flex
+          rounded-full
+          bottom-3
+          p-4
+        "
+      >
         <div>
           <img class="w-6" src="../assets/icons/ho_ho1@3x.png" alt="" />
         </div>
